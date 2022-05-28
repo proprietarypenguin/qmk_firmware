@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MOUSEKEY_INTERVAL 16
 // The default is 20. Since we made the mouse about 3 times faster with the previous setting,
 // give it more time to accelerate to max speed to retain precise control over short distances.
-#define MOUSEKEY_TIME_TO_MAX 40
+#define MOUSEKEY_TIME_TO_MAX 60
 // The default is 300. Let's try and make this as low as possible while keeping the cursor responsive
 #define MOUSEKEY_DELAY 100
 // It makes sense to use the same delay for the mouseweel
@@ -33,10 +33,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 100
 
 // Pick good defaults for enabling homerow modifiers
-#define TAPPING_TERM 200
+#define TAPPING_TERM 300
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_FORCE_HOLD
+
+// iOS power setting
+#define USB_MAX_POWER_CONSUMPTION 100
 
 // Underglow configuration
 #ifdef RGBLIGHT_ENABLE
