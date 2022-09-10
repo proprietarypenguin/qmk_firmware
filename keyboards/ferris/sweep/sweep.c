@@ -31,3 +31,11 @@ const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRIX_COLS] = {
 };
 #endif
 
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(4,KC_SPC):
+             return 350;
+	default:
+	     return TAPPING_TERM;
+	}
+};
