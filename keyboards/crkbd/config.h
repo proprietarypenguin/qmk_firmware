@@ -49,7 +49,7 @@ Copyright 2020 Drashna Jaelre <@drashna>
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
 
-#define USE_SERIAL
+//#define USE_SERIAL
 
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
