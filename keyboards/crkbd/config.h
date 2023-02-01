@@ -48,13 +48,11 @@ Copyright 2020 Drashna Jaelre <@drashna>
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
-<<<<<<< HEAD
 
-//beginning of git merge from upstream - not sure if any of these lines need to stay
 #define USE_SERIAL
 
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
+//#define NO_ACTION_MACRO
+//#define NO_ACTION_FUNCTION
 
 /*
 #ifdef RGB_MATRIX_ENABLE
@@ -103,5 +101,3 @@ Copyright 2020 Drashna Jaelre <@drashna>
 #endif 
 */
 
-=======
->>>>>>> upstream/master
