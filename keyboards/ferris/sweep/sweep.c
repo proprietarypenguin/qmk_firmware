@@ -34,8 +34,19 @@ const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRIX_COLS] = {
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case LT(4,KC_SPC):
-             return TAPPING_TERM + 400;
+             return TAPPING_TERM + 100;
 	default:
 	     return TAPPING_TERM;
 	}
+};
+
+bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(4, KC_SPC):
+            // Immediately select the hold action when another key is tapped.
+            return false;
+        default:
+            // Do not select the hold action when another key is tapped.
+            return true;
+    }
 };
