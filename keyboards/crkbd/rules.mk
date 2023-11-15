@@ -1,9 +1,3 @@
-# MCU name
-MCU = atmega32u4
-
-# Bootloader selection
-BOOTLOADER = caterina
-
 # Build Options
 #   change yes to no to disable
 #
@@ -13,7 +7,7 @@ EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
 UNICODE_ENABLE = no         # Unicode
 BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
-RGB_MATRIX_ENABLE = no 
+RGB_MATRIX_ENABLE = no
 COMMAND_ENABLE = no         # Commands for debug and configuration
 NKRO_ENABLE = yes           # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
@@ -28,9 +22,7 @@ LAYOUTS = split_3x5_3 split_3x6_3
 
 # CFLAGS += -flto
 
-DEFAULT_FOLDER = crkbd/rev1
+DEFAULT_FOLDER = crkbd/proprietarypenguin
 
 RGBLIGHT_SUPPORTED = yes
 RGB_MATRIX_SUPPORTED = yes
-
-LAYOUTS = split_3x5_3 split_3x6_3
