@@ -22,7 +22,7 @@ LAYOUTS = split_3x5_3 split_3x6_3
 
 # CFLAGS += -flto
 
-DEFAULT_FOLDER = crkbd/proprietarypenguin
+DEFAULT_FOLDER = crkbd/rev1
 
 RGBLIGHT_SUPPORTED = yes
 RGB_MATRIX_SUPPORTED = yes
