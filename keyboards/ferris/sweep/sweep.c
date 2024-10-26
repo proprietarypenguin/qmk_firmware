@@ -35,9 +35,9 @@ bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case LT(4, KC_SPC):
             // Immediately select the hold action when another key is tapped.
-            return false;
+            return true;
         default:
             // Do not select the hold action when another key is tapped.
-            return true;
+            return false;
     }
 };
